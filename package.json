@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/sumanth-botlagunta/zomatolive#readme",
   "dependencies": {
-    "express": "^4.17.2"
+    "express": "^4.17.2",
+    "path": "^0.12.7"
   }
 }

@@ -4,7 +4,8 @@
   "description": "making zomato live",
   "main": "index.js",
   "scripts": {
-    "test": "node server.js"
+    "test": "node server.js",
+    "heroku-postbuild": "npm install --prefix client && npm run build --prefix client"
   },
   "repository": {
     "type": "git",
